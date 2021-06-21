@@ -1,0 +1,97 @@
+body
+  {
+    background-color: lightblue;
+    margin : 0;
+    padding: 0;
+  }
+  .Header
+  {
+      padding: 20px;
+      font-family: "Courier";
+      text-align: center;
+      background: blue;
+      color: lightblue;
+      font-size: 45px;
+  }
+  .BotaoDownload
+  {
+     text-align: center;
+  }
+  #link 
+  {
+    color: lightblue;
+  }
+  .footer 
+  {
+          /*CIMA  DIREITA  BAIXO  ESQUERDA*/
+    padding: 20px   0px     20px    0px;
+    margin-top: 350px;
+    background-color: blue;
+    color: lightblue;
+    font-family: "Courier";
+    text-align: center;
+    position: bottom fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  button
+  {
+    padding: 35px 150px;
+    font-family: "Verdana";
+    font-size: 20px;
+    background-color: blue;
+    color: lightblue;;
+    border-radius: 15px;
+    border-style: ridge;
+    border-color: blue;
+  }
+  .Título
+  {
+          /*CIMA  DIREITA  BAIXO  ESQUERDA*/
+    padding: 0px   0px     0px    30px;
+    color: blue;
+    font-size: 75px;
+  }
+  .Texto
+  {
+          /*CIMA  DIREITA  BAIXO  ESQUERDA*/
+    padding: 0px   0px     0px    0px;
+    font-size: 28px;
+    font-family: "Georgia";
+  }
+
+  /* Expessura */
+  ::-webkit-scrollbar 
+  {
+    width: 10px;
+  }
+
+  /* Caminho */
+  ::-webkit-scrollbar-track 
+  {
+    background: lightblue; 
+  }
+
+  /* Marcador */
+  ::-webkit-scrollbar-thumb 
+  {
+    background: blue; 
+  }
+
+  /* Marcador no hover */
+  ::-webkit-scrollbar-thumb:hover 
+  {
+    background: #001a66; 
+  }
+  #Texto-Direita
+  {
+          /*CIMA  DIREITA  BAIXO  ESQUERDA*/
+    padding: 85px   180px     0px    0px;
+    float: right;
+  }
+  #Texto-Esquerda
+  {
+          /*CIMA  DIREITA  BAIXO  ESQUERDA*/
+    padding: 0px   0px     0px    50px;
+    float: left;
+  }
